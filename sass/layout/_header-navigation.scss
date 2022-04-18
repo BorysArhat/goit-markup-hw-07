@@ -1,5 +1,5 @@
 .navigation,
-.links,
+.navigation__links,
 .contacts {
     display: flex;
 }
@@ -7,8 +7,8 @@
 .navigation {
     align-items: center;
 }
-.nav-link,
-.contacts-link {
+.navigation__link,
+.contacts__link {
     padding: 31px 0;
     display: block;
     font-weight: 500;
@@ -19,31 +19,31 @@
 
     &:hover,
     &:focus,
-    &:hover .icon,
-    &:focus .icon{
+    &:hover .contacts__icon,
+    &:focus .contacts__icon{
         color: var(--accent-color);
         fill: var(--accent-color);
     }
 
 }
 
-.contacts-link {
+.contacts__link {
     color: var(--second-color);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon {
+.contacts__icon {
     fill: var(--second-color);
     margin-right: 10px;
     vertical-align: middle;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contacts-item+.contacts-item {
+.contacts__item+.contacts__item {
     margin-left: 50px;
 }
 
-.links-item {
+.navigation__links-item {
     position: relative;
 
     &:not(:last-child) {

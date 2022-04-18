@@ -3,12 +3,12 @@
     margin-right: -30px;
 }
 
-.pref-item {
+.pref__item {
     flex-basis: calc(100% / 4 - 30px);
     margin-right: 30px;
 }
 
-.icon-wrapper {
+.pref__icon-wrapper {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -18,7 +18,7 @@
     margin-bottom: 30px;
 }
 
-.pref-name {
+.pref__name {
     font-weight: bold;
     font-size: 14px;
     line-height: 16px;
@@ -28,7 +28,7 @@
     color: var(--main-color);
 }
 
-.pref-descript {
+.pref__descript {
     line-height: 171%;
     letter-spacing: 0.03em;
     color: var(--second-color);
